@@ -1,7 +1,7 @@
 ---
 layout: page
+title: Категории
 permalink: /categories/
-title: Categories
 ---
 
 

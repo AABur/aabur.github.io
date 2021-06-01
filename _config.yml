@@ -3,16 +3,16 @@
 #
 
 # Name of your site (displayed in the header)
-name: AABur's blog
+name: Блог Александра Бурченко
 
 # Name of the author
-author: Alexander Burchenko
+author: Александр Бурченко
 
 # Short bio or description (displayed in the header)
-description: AABur's personal blog on all sorts of development-related topics
+description: заметки на разные околопрограммистские темы
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/reverie.png
+avatar: https://avatars.githubusercontent.com/u/41373199?v=4&s=460
 
 #
 # Flags below are optional
@@ -99,4 +99,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
