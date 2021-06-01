@@ -2,6 +2,7 @@
 layout: post
 title: Влияние протокола языкового сервера (LSP) на будущее IDE
 categories: [Hexlet, Habr]
+excerpt: В этой статье рассказано о методе именования классов, функций и переменных, который позволяет улучшить читаемость вашего кода.
 published: true
 ---
 _Перевод статьи [How the Language Server Protocol Affects the Future of IDEs](https://www.freecodecamp.org/news/language-server-protocol-and-the-future-of-ide/)_
@@ -9,7 +10,7 @@ _Перевод статьи [How the Language Server Protocol Affects the Futur
 _Автор оригинала [Mehul Mohan](https://www.freecodecamp.org/news/author/mehulmpt/)_
 
 
-![screely.png]({{site.baseurl}}/images/screely.png)
+![screely.png]({{site.baseurl}}/images/LSP-1.png)
 
 С момента своего появления Visual Studio Code в одиночку так сильно повлиял на экосистему разработчиков, что возврата назад уже не будет. Это общедоступный бесплатный инструмент с открытым исходным кодом и это очень мощный инструмент.
 
@@ -31,7 +32,7 @@ _Автор оригинала [Mehul Mohan](https://www.freecodecamp.org/news/a
 
 Поддержка автозавершения и IntelliSense для HTML/CSS/JavaScript идет сразу вместе с VSCode (так же, как PyCharm идет сразу с поддержкой Python). Однако такая же поддержка других языков может быть реализована с помощью протокола LSP для этих языков.
 
-![pn5c0n3zus769e5fadbk.gif]({{site.baseurl}}/images/pn5c0n3zus769e5fadbk.gif)
+![pn5c0n3zus769e5fadbk.gif]({{site.baseurl}}/images/LSP-2.gif)
 
 
 ## Что такое JSON-RPC?
@@ -78,7 +79,7 @@ Content-Length: 78
 
 LSP требует, чтобы вы передали заголовок `Content-Length`, за которым следуют два `CRLF` токена `\r\n`. Когда запущенные языковые серверы, такие как `ccls`, получат это сообщение, они ответят соответствующим сообщением:
 
-![7zxtfv0a4c15mqxdl2mr.png]({{site.baseurl}}/images/7zxtfv0a4c15mqxdl2mr.png)
+![7zxtfv0a4c15mqxdl2mr.png]({{site.baseurl}}/images/LSP-3.png)
 
 Конечно, в приведенном выше примере видно, что `ccls` говорит о том, что не существует метода, названного `runThisFunction`. Но можно заметить, что удаленный сервер также отвечает заголовком `Content-Length` со спецификацией JSON-RPC.
 
@@ -90,7 +91,7 @@ LSP требует, чтобы вы передали заголовок `Content
 **M** = Различные языки (C, C++, PHP, Python, Node, Swift, Go и т.д.).
 **N** = Различные редакторы кода (VSCode, Eclipse, Notepad++, Sublime Text и т.д.).
 
-![Screenshot-2020-04-02-at-8.30.21-PM.png]({{site.baseurl}}/images/Screenshot-2020-04-02-at-8.30.21-PM.png)
+![Screenshot-2020-04-02-at-8.30.21-PM.png]({{site.baseurl}}/images/LSP-4.png)
 
 Раньше для того, чтобы M редакторов поддерживали N языков, вам нужно было иметь M*N решений. То есть каждый редактор кода должен был реализовать поддержку каждого языка самостоятельно.
 
