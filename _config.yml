@@ -12,7 +12,8 @@ author: Александр Бурченко
 description: заметки на разные околопрограммистские темы
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars.githubusercontent.com/u/41373199?v=4&s=460
+# avatar: https://avatars.githubusercontent.com/u/41373199?v=4&s=460
+avatar: {% avatar aabur size=50 %}
 
 #
 # Flags below are optional
@@ -86,6 +87,7 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-avatar
 
 include: ['_pages']
 
