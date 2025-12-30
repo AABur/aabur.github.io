@@ -3022,7 +3022,7 @@ window.addEventListener('DOMContentLoaded', function (){
 	window.addEventListener('keydown', function(e){ if( (e.keyCode && e.keyCode === 27) || ( e.code && e.code === "Escape") ) closemodal(); }, false );
 
 	var navToPerson = function () {
-		mc.innerHTML = '<iframe id="idetail" onload="currpos+=1;" src="Род Бурченко и род Мозговых итоговое древо.html.files/p' + this.dataset.id + '.html?v=1" class="modal-frame"></iframe>';
+		mc.innerHTML = '<iframe id="idetail" onload="currpos+=1;" src="family_tree_files/p' + this.dataset.id + '.html?v=1" class="modal-frame"></iframe>';
 		modal.style.display = 'block';
 		setH(this.id);
 	}
