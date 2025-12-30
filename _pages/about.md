@@ -9,3 +9,5 @@ permalink: /about/
 Осваиваю Python и современные методологии в разработке на площадке [Hexlet.io](https://ru.hexlet.io/)
 Участвую в open source проектах.
 Пробую себя в переводе тематических статей.
+
+Моё семейное деревро /Users/aabur/Documents/GitHub/AABur/aabur.github.io/Family_tree_AAB/Род Бурченко и род Мозговых итоговое древо.html
