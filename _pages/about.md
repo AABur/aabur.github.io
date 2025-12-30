@@ -10,4 +10,4 @@ permalink: /about/
 Участвую в open source проектах.
 Пробую себя в переводе тематических статей.
 
-Моё семейное деревро /Users/aabur/Documents/GitHub/AABur/aabur.github.io/Family_tree_AAB/Род Бурченко и род Мозговых итоговое древо.html
+[Моё семейное деревро](/Users/aabur/Documents/GitHub/AABur/aabur.github.io/Family_tree_AAB/Род Бурченко и род Мозговых итоговое древо.html)
