@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти — Школа «Крила»</title>
+  <meta name="description" content="Контакти Української початкової школи «Крила» у Лімасолі, Кіпр">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="bg-gray-50 text-gray-900 pt-16">
+
+  <nav id="navbar" class="fixed top-0 w-full bg-white z-50 transition-shadow duration-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3"><img src="assets/img/logo.png" alt="Школа Крила" class="h-10"></a>
+      <div class="hidden md:flex items-center gap-6 text-sm font-semibold">
+        <a href="about.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a>
+        <a href="programs.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a>
+        <a href="team.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a>
+        <a href="news.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a>
+        <a href="contact.html" class="btn-primary text-sm py-2 px-4" style="background-color:#004494"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a>
+        <div class="flex gap-1 ml-2">
+          <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold hover:bg-blue-700 hover:text-white transition-colors" data-set-lang="ua">UA</button>
+          <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold hover:bg-blue-700 hover:text-white transition-colors" data-set-lang="en">EN</button>
+        </div>
+      </div>
+      <button id="menu-btn" class="md:hidden p-2 text-gray-700"><i class="fa-solid fa-bars text-xl"></i></button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-4 text-sm font-semibold">
+      <a href="about.html" class="text-gray-700"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a>
+      <a href="programs.html" class="text-gray-700"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a>
+      <a href="team.html" class="text-gray-700"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a>
+      <a href="news.html" class="text-gray-700"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a>
+      <a href="contact.html" class="text-gray-700"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a>
+      <div class="flex gap-2">
+        <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold" data-set-lang="ua">UA</button>
+        <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold" data-set-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-blue-700 text-white py-16 px-4 text-center">
+    <h1 class="text-4xl font-extrabold font-['Nunito'] mb-2">
+      <span data-lang="ua">Контакти</span><span data-lang="en">Contact Us</span>
+    </h1>
+    <p class="text-blue-200"><span data-lang="ua">Зв'яжіться з нами</span><span data-lang="en">Get in touch with us</span></p>
+  </section>
+
+  <section class="py-16 px-4">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+      <!-- CONTACT FORM -->
+      <div>
+        <h2 class="section-title"><span data-lang="ua">Написати нам</span><span data-lang="en">Write to Us</span></h2>
+        <div class="accent-bar"></div>
+        <!-- Replace YOUR_FORMSPREE_ID with your Formspree form ID after signup at formspree.io -->
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="card space-y-5">
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">
+              <span data-lang="ua">Ім'я</span><span data-lang="en">Name</span>
+            </label>
+            <input type="text" name="name" required
+              class="w-full border border-gray-200 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Email</label>
+            <input type="email" name="email" required
+              class="w-full border border-gray-200 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">
+              <span data-lang="ua">Повідомлення</span><span data-lang="en">Message</span>
+            </label>
+            <textarea name="message" rows="5" required
+              class="w-full border border-gray-200 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"></textarea>
+          </div>
+          <button type="submit" class="btn-primary w-full py-3 text-center">
+            <span data-lang="ua">Надіслати</span><span data-lang="en">Send Message</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- CONTACT INFO + MAP -->
+      <div>
+        <h2 class="section-title"><span data-lang="ua">Наша адреса</span><span data-lang="en">Our Address</span></h2>
+        <div class="accent-bar"></div>
+        <div class="card mb-6 space-y-4">
+          <div class="flex items-start gap-3">
+            <i class="fa-solid fa-location-dot text-blue-700 text-lg mt-0.5"></i>
+            <div>
+              <p class="font-semibold text-gray-800">Germasogeia, Limassol, Cyprus</p>
+              <p class="text-sm text-gray-500"><span data-lang="ua">Поряд з Limassol Del Mar</span><span data-lang="en">Near Limassol Del Mar</span></p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <i class="fa-solid fa-phone text-blue-700 text-lg"></i>
+            <a href="tel:+35799132180" class="text-blue-700 hover:underline font-medium">+357 99 132180</a>
+          </div>
+          <div class="flex items-center gap-3">
+            <i class="fa-solid fa-envelope text-blue-700 text-lg"></i>
+            <a href="mailto:wingsuaschool@gmail.com" class="text-blue-700 hover:underline font-medium">wingsuaschool@gmail.com</a>
+          </div>
+          <div class="flex items-center gap-3">
+            <i class="fa-brands fa-facebook text-blue-700 text-lg"></i>
+            <a href="https://www.facebook.com/WingsUACyprus/" target="_blank" rel="noopener" class="text-blue-700 hover:underline font-medium">facebook.com/WingsUACyprus</a>
+          </div>
+          <div class="flex items-start gap-3">
+            <i class="fa-solid fa-clock text-blue-700 text-lg mt-0.5"></i>
+            <div>
+              <p class="font-semibold text-gray-800">
+                <span data-lang="ua">Пн–Пт: 9:00–15:00</span><span data-lang="en">Mon–Fri: 9:00–15:00</span>
+              </p>
+              <p class="text-sm text-gray-500">
+                <span data-lang="ua">Субота: 10:00–14:00</span><span data-lang="en">Sat: 10:00–14:00</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Google Maps embed for Kryla school location -->
+        <div class="rounded-xl overflow-hidden shadow-sm">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.8!2d33.0949244!3d34.7037583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e0cb0851402b97%3A0xf9ee57aeb75a8d11!2z0KPQutGA0LDRl9C90YHRjNC60LAg0L_QvtGH0LDRgtC60L7QstCwINGI0LrQvtC70LAgwqvQmtGA0LjQu9CwwrsNCg!5e0!3m2!1suk!2scy!4v1712345678"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Школа Крила — Limassol, Cyprus"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div><img src="assets/img/logo.png" alt="Школа Крила" class="h-10 mb-3"><p class="text-sm"><span data-lang="ua">Українська початкова школа «Крила» у Лімасолі, Кіпр</span><span data-lang="en">Ukrainian Primary School "Kryla" in Limassol, Cyprus</span></p></div>
+      <div><h4 class="font-bold text-white mb-3 font-['Nunito']"><span data-lang="ua">Навігація</span><span data-lang="en">Navigation</span></h4><ul class="space-y-2 text-sm"><li><a href="about.html" class="hover:text-yellow-400"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a></li><li><a href="programs.html" class="hover:text-yellow-400"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a></li><li><a href="team.html" class="hover:text-yellow-400"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a></li><li><a href="news.html" class="hover:text-yellow-400"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a></li><li><a href="contact.html" class="hover:text-yellow-400"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a></li></ul></div>
+      <div><h4 class="font-bold text-white mb-3 font-['Nunito']"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></h4><ul class="space-y-2 text-sm"><li><i class="fa-solid fa-location-dot mr-2 text-yellow-400"></i>Germasogeia, Limassol</li>
+          <li><i class="fa-solid fa-phone mr-2 text-yellow-400"></i>+357 99 132180</li><li><i class="fa-solid fa-envelope mr-2 text-yellow-400"></i>wingsuaschool@gmail.com</li></ul></div>
+    </div>
+    <div class="border-t border-gray-800 text-center py-4 text-xs text-gray-500">© 2024 <span data-lang="ua">Школа «Крила»</span><span data-lang="en">School "Kryla"</span></div>
+  </footer>
+
+  <script src="assets/js/lang.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

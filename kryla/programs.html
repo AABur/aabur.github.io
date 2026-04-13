@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Програми — Школа «Крила»</title>
+  <meta name="description" content="Навчальні програми Української початкової школи «Крила» у Лімасолі">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="bg-gray-50 text-gray-900 pt-16">
+
+  <nav id="navbar" class="fixed top-0 w-full bg-white z-50 transition-shadow duration-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3"><img src="assets/img/logo.png" alt="Школа Крила" class="h-10"></a>
+      <div class="hidden md:flex items-center gap-6 text-sm font-semibold">
+        <a href="about.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a>
+        <a href="programs.html" class="text-blue-700 font-bold border-b-2 border-blue-700 pb-1"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a>
+        <a href="team.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a>
+        <a href="news.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a>
+        <a href="contact.html" class="btn-primary text-sm py-2 px-4"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a>
+        <div class="flex gap-1 ml-2">
+          <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold hover:bg-blue-700 hover:text-white transition-colors" data-set-lang="ua">UA</button>
+          <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold hover:bg-blue-700 hover:text-white transition-colors" data-set-lang="en">EN</button>
+        </div>
+      </div>
+      <button id="menu-btn" class="md:hidden p-2 text-gray-700"><i class="fa-solid fa-bars text-xl"></i></button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-4 text-sm font-semibold">
+      <a href="about.html" class="text-gray-700"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a>
+      <a href="programs.html" class="text-gray-700"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a>
+      <a href="team.html" class="text-gray-700"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a>
+      <a href="news.html" class="text-gray-700"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a>
+      <a href="contact.html" class="text-gray-700"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a>
+      <div class="flex gap-2">
+        <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold" data-set-lang="ua">UA</button>
+        <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold" data-set-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-blue-700 text-white py-16 px-4 text-center">
+    <h1 class="text-4xl font-extrabold font-['Nunito'] mb-2">
+      <span data-lang="ua">Навчальні програми</span><span data-lang="en">Programs</span>
+    </h1>
+    <p class="text-blue-200"><span data-lang="ua">Предмети, розклад та запис</span><span data-lang="en">Subjects, schedule and enrollment</span></p>
+  </section>
+
+  <section class="py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <!-- GRADES -->
+      <h2 class="section-title"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></h2>
+      <div class="accent-bar"></div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
+        <div class="card text-center border-t-4 border-yellow-400">
+          <i class="fa-solid fa-star text-2xl text-yellow-500 mb-2"></i>
+          <p class="font-semibold text-gray-700"><span data-lang="ua">Підготовка до школи</span><span data-lang="en">School Prep</span></p>
+          <p class="text-sm text-gray-500"><span data-lang="ua">5–6 років</span><span data-lang="en">ages 5–6</span></p>
+        </div>
+        <div class="card text-center border-t-4 border-blue-700">
+          <div class="text-3xl font-extrabold text-blue-700 font-['Nunito'] mb-1">1</div>
+          <p class="font-semibold text-gray-700"><span data-lang="ua">Перший клас</span><span data-lang="en">Grade 1</span></p>
+          <p class="text-sm text-gray-500"><span data-lang="ua">6–7 років</span><span data-lang="en">ages 6–7</span></p>
+        </div>
+        <div class="card text-center border-t-4 border-yellow-400">
+          <div class="text-3xl font-extrabold text-blue-700 font-['Nunito'] mb-1">2</div>
+          <p class="font-semibold text-gray-700"><span data-lang="ua">Другий клас</span><span data-lang="en">Grade 2</span></p>
+          <p class="text-sm text-gray-500"><span data-lang="ua">7–8 років</span><span data-lang="en">ages 7–8</span></p>
+        </div>
+        <div class="card text-center border-t-4 border-blue-700">
+          <div class="text-3xl font-extrabold text-blue-700 font-['Nunito'] mb-1">3</div>
+          <p class="font-semibold text-gray-700"><span data-lang="ua">Третій клас</span><span data-lang="en">Grade 3</span></p>
+          <p class="text-sm text-gray-500"><span data-lang="ua">8–9 років</span><span data-lang="en">ages 8–9</span></p>
+        </div>
+        <div class="card text-center border-t-4 border-yellow-400">
+          <div class="text-3xl font-extrabold text-blue-700 font-['Nunito'] mb-1">4</div>
+          <p class="font-semibold text-gray-700"><span data-lang="ua">Четвертий клас</span><span data-lang="en">Grade 4</span></p>
+          <p class="text-sm text-gray-500"><span data-lang="ua">9–10 років</span><span data-lang="en">ages 9–10</span></p>
+        </div>
+      </div>
+
+      <!-- SUBJECTS -->
+      <h2 class="section-title"><span data-lang="ua">Предмети</span><span data-lang="en">Subjects</span></h2>
+      <div class="accent-bar"></div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 mb-16">
+        <div class="card text-center py-4">
+          <i class="fa-solid fa-pen-nib text-2xl text-blue-600 mb-2"></i>
+          <p class="text-sm font-semibold"><span data-lang="ua">Українська мова</span><span data-lang="en">Ukrainian</span></p>
+        </div>
+        <div class="card text-center py-4">
+          <i class="fa-solid fa-calculator text-2xl text-yellow-600 mb-2"></i>
+          <p class="text-sm font-semibold"><span data-lang="ua">НУШ+ Математика</span><span data-lang="en">NUS+ Math</span></p>
+        </div>
+        <div class="card text-center py-4">
+          <i class="fa-solid fa-globe text-2xl text-green-600 mb-2"></i>
+          <p class="text-sm font-semibold"><span data-lang="ua">Природознавство</span><span data-lang="en">Science</span></p>
+        </div>
+        <div class="card text-center py-4">
+          <i class="fa-solid fa-book text-2xl text-red-500 mb-2"></i>
+          <p class="text-sm font-semibold"><span data-lang="ua">Читання</span><span data-lang="en">Reading</span></p>
+        </div>
+        <div class="card text-center py-4">
+          <i class="fa-solid fa-language text-2xl text-indigo-600 mb-2"></i>
+          <p class="text-sm font-semibold"><span data-lang="ua">Англійська</span><span data-lang="en">English</span></p>
+        </div>
+        <div class="card text-center py-4">
+          <i class="fa-solid fa-masks-theater text-2xl text-orange-500 mb-2"></i>
+          <p class="text-sm font-semibold"><span data-lang="ua">Театр</span><span data-lang="en">Theatre</span></p>
+        </div>
+        <div class="card text-center py-4">
+          <i class="fa-solid fa-palette text-2xl text-purple-600 mb-2"></i>
+          <p class="text-sm font-semibold"><span data-lang="ua">Арт-студія</span><span data-lang="en">Art Studio</span></p>
+        </div>
+        <div class="card text-center py-4">
+          <i class="fa-solid fa-music text-2xl text-pink-500 mb-2"></i>
+          <p class="text-sm font-semibold"><span data-lang="ua">Музика</span><span data-lang="en">Music</span></p>
+        </div>
+      </div>
+
+      <!-- SCHEDULE -->
+      <h2 class="section-title"><span data-lang="ua">Розклад</span><span data-lang="en">Schedule</span></h2>
+      <div class="accent-bar"></div>
+      <div class="overflow-x-auto mb-16">
+        <table class="w-full bg-white rounded-xl shadow-sm text-sm">
+          <thead>
+            <tr class="bg-blue-700 text-white">
+              <th class="py-3 px-4 text-left font-['Nunito']"><span data-lang="ua">День</span><span data-lang="en">Day</span></th>
+              <th class="py-3 px-4 text-left font-['Nunito']"><span data-lang="ua">Час</span><span data-lang="en">Time</span></th>
+              <th class="py-3 px-4 text-left font-['Nunito']"><span data-lang="ua">1 клас</span><span data-lang="en">Grade 1</span></th>
+              <th class="py-3 px-4 text-left font-['Nunito']"><span data-lang="ua">2 клас</span><span data-lang="en">Grade 2</span></th>
+              <th class="py-3 px-4 text-left font-['Nunito']"><span data-lang="ua">3–4 клас</span><span data-lang="en">Grades 3–4</span></th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr class="hover:bg-gray-50">
+              <td class="py-3 px-4 font-semibold text-blue-700"><span data-lang="ua">Пн–Пт</span><span data-lang="en">Mon–Fri</span></td>
+              <td class="py-3 px-4">09:00–10:30</td>
+              <td class="py-3 px-4"><span data-lang="ua">Укр. мова</span><span data-lang="en">Ukrainian</span></td>
+              <td class="py-3 px-4"><span data-lang="ua">Математика</span><span data-lang="en">Math</span></td>
+              <td class="py-3 px-4"><span data-lang="ua">Укр. мова</span><span data-lang="en">Ukrainian</span></td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-3 px-4 font-semibold text-blue-700"><span data-lang="ua">Пн–Пт</span><span data-lang="en">Mon–Fri</span></td>
+              <td class="py-3 px-4">10:45–12:15</td>
+              <td class="py-3 px-4"><span data-lang="ua">Математика</span><span data-lang="en">Math</span></td>
+              <td class="py-3 px-4"><span data-lang="ua">Читання</span><span data-lang="en">Reading</span></td>
+              <td class="py-3 px-4"><span data-lang="ua">Природознавство</span><span data-lang="en">Science</span></td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-3 px-4 font-semibold text-blue-700"><span data-lang="ua">Пн–Пт</span><span data-lang="en">Mon–Fri</span></td>
+              <td class="py-3 px-4">13:00–14:30</td>
+              <td class="py-3 px-4"><span data-lang="ua">Мистецтво</span><span data-lang="en">Arts</span></td>
+              <td class="py-3 px-4"><span data-lang="ua">Природознавство</span><span data-lang="en">Science</span></td>
+              <td class="py-3 px-4"><span data-lang="ua">Математика</span><span data-lang="en">Math</span></td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-3 px-4 font-semibold text-blue-700"><span data-lang="ua">Субота</span><span data-lang="en">Saturday</span></td>
+              <td class="py-3 px-4">10:00–13:00</td>
+              <td colspan="3" class="py-3 px-4 text-center text-gray-600">
+                <span data-lang="ua">Додаткові заняття та гуртки</span><span data-lang="en">Extra classes and clubs</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENROLLMENT -->
+  <section class="py-16 px-4 bg-blue-50">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="section-title"><span data-lang="ua">Як записатися</span><span data-lang="en">How to Enroll</span></h2>
+      <div class="accent-bar mx-auto"></div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        <div class="card">
+          <div class="text-2xl font-extrabold text-yellow-500 font-['Nunito'] mb-2">1</div>
+          <h3 class="font-bold text-blue-700 font-['Nunito'] mb-1"><span data-lang="ua">Зв'яжіться з нами</span><span data-lang="en">Contact Us</span></h3>
+          <p class="text-sm text-gray-600"><span data-lang="ua">Напишіть на пошту або заповніть форму на сторінці контактів</span><span data-lang="en">Email us or fill in the contact form</span></p>
+        </div>
+        <div class="card">
+          <div class="text-2xl font-extrabold text-yellow-500 font-['Nunito'] mb-2">2</div>
+          <h3 class="font-bold text-blue-700 font-['Nunito'] mb-1"><span data-lang="ua">Ознайомча зустріч</span><span data-lang="en">Intro Meeting</span></h3>
+          <p class="text-sm text-gray-600"><span data-lang="ua">Призначимо зустріч із директором школи</span><span data-lang="en">We'll schedule a meeting with the school director</span></p>
+        </div>
+        <div class="card">
+          <div class="text-2xl font-extrabold text-yellow-500 font-['Nunito'] mb-2">3</div>
+          <h3 class="font-bold text-blue-700 font-['Nunito'] mb-1"><span data-lang="ua">Оформлення</span><span data-lang="en">Enrollment</span></h3>
+          <p class="text-sm text-gray-600"><span data-lang="ua">Підпишемо договір і підготуємо місце для дитини</span><span data-lang="en">We sign the agreement and prepare a spot for your child</span></p>
+        </div>
+      </div>
+      <a href="https://docs.google.com/forms/d/1w4rJgLBZ41oY2nz6xjrMlPOcqyET357ioGKQ6SIx7Sk/edit" target="_blank" rel="noopener" class="btn-primary px-10 py-3">
+        <span data-lang="ua">Заповнити форму запису</span><span data-lang="en">Fill in Enrollment Form</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div><img src="assets/img/logo.png" alt="Школа Крила" class="h-10 mb-3"><p class="text-sm"><span data-lang="ua">Українська початкова школа «Крила» у Лімасолі, Кіпр</span><span data-lang="en">Ukrainian Primary School "Kryla" in Limassol, Cyprus</span></p></div>
+      <div><h4 class="font-bold text-white mb-3 font-['Nunito']"><span data-lang="ua">Навігація</span><span data-lang="en">Navigation</span></h4><ul class="space-y-2 text-sm"><li><a href="about.html" class="hover:text-yellow-400"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a></li><li><a href="programs.html" class="hover:text-yellow-400"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a></li><li><a href="team.html" class="hover:text-yellow-400"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a></li><li><a href="news.html" class="hover:text-yellow-400"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a></li><li><a href="contact.html" class="hover:text-yellow-400"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a></li></ul></div>
+      <div><h4 class="font-bold text-white mb-3 font-['Nunito']"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></h4><ul class="space-y-2 text-sm"><li><i class="fa-solid fa-location-dot mr-2 text-yellow-400"></i>Germasogeia, Limassol</li>
+          <li><i class="fa-solid fa-phone mr-2 text-yellow-400"></i>+357 99 132180</li><li><i class="fa-solid fa-envelope mr-2 text-yellow-400"></i>wingsuaschool@gmail.com</li></ul></div>
+    </div>
+    <div class="border-t border-gray-800 text-center py-4 text-xs text-gray-500">© 2024 <span data-lang="ua">Школа «Крила»</span><span data-lang="en">School "Kryla"</span></div>
+  </footer>
+
+  <script src="assets/js/lang.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

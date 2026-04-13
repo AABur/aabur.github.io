@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Про школу — Школа «Крила»</title>
+  <meta name="description" content="Місія та цінності Української початкової школи «Крила» у Лімасолі">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="bg-gray-50 text-gray-900 pt-16">
+
+  <nav id="navbar" class="fixed top-0 w-full bg-white z-50 transition-shadow duration-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3"><img src="assets/img/logo.png" alt="Школа Крила" class="h-10"></a>
+      <div class="hidden md:flex items-center gap-6 text-sm font-semibold">
+        <a href="about.html" class="text-blue-700 font-bold border-b-2 border-blue-700 pb-1"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a>
+        <a href="programs.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a>
+        <a href="team.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a>
+        <a href="news.html" class="text-gray-700 hover:text-blue-700 transition-colors"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a>
+        <a href="contact.html" class="btn-primary text-sm py-2 px-4"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a>
+        <div class="flex gap-1 ml-2">
+          <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold hover:bg-blue-700 hover:text-white transition-colors" data-set-lang="ua">UA</button>
+          <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold hover:bg-blue-700 hover:text-white transition-colors" data-set-lang="en">EN</button>
+        </div>
+      </div>
+      <button id="menu-btn" class="md:hidden p-2 text-gray-700"><i class="fa-solid fa-bars text-xl"></i></button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-4 text-sm font-semibold">
+      <a href="about.html" class="text-gray-700"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a>
+      <a href="programs.html" class="text-gray-700"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a>
+      <a href="team.html" class="text-gray-700"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a>
+      <a href="news.html" class="text-gray-700"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a>
+      <a href="contact.html" class="text-gray-700"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a>
+      <div class="flex gap-2">
+        <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold" data-set-lang="ua">UA</button>
+        <button class="lang-btn text-xs px-2 py-1 rounded border border-blue-700 text-blue-700 font-bold" data-set-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-blue-700 text-white py-16 px-4 text-center">
+    <h1 class="text-4xl font-extrabold font-['Nunito'] mb-2">
+      <span data-lang="ua">Про школу</span><span data-lang="en">About the School</span>
+    </h1>
+    <p class="text-blue-200">
+      <span data-lang="ua">Наша місія, цінності та історія</span><span data-lang="en">Our mission, values and story</span>
+    </p>
+  </section>
+
+  <!-- MISSION -->
+  <section class="py-16 px-4">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="section-title"><span data-lang="ua">Наша місія</span><span data-lang="en">Our Mission</span></h2>
+      <div class="accent-bar"></div>
+      <p class="text-gray-700 text-lg leading-relaxed mb-6">
+        <span data-lang="ua">«Крила» — це Український освітній простір на Кіпрі для дітей віком 5–10 років. Ми пропонуємо підготовку до школи та повноцінне початкове навчання за програмою НУШ, доповненою поглибленою математикою, англійською мовою, театром та арт-студією.</span>
+        <span data-lang="en">"Kryla" is a Ukrainian educational space in Cyprus for children aged 5–10. We offer school preparation and full primary education following the NUS curriculum, enriched with advanced mathematics, English, theatre and an art studio.</span>
+      </p>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        <span data-lang="ua">Ми віримо, що кожна дитина має право навчатися рідною мовою, розвивати свої таланти та зростати у безпечному, теплому середовищі — навіть далеко від дому.</span>
+        <span data-lang="en">We believe every child deserves to learn in their native language, develop their talents and grow in a safe, nurturing environment — even far from home.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="py-16 px-4 bg-blue-50">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-10">
+        <h2 class="section-title inline-block"><span data-lang="ua">Наші цінності</span><span data-lang="en">Our Values</span></h2>
+        <div class="accent-bar mx-auto"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="card text-center">
+          <i class="fa-solid fa-star text-3xl text-yellow-500 mb-3"></i>
+          <h3 class="font-bold font-['Nunito'] text-blue-700 text-lg mb-2"><span data-lang="ua">Якість</span><span data-lang="en">Quality</span></h3>
+          <p class="text-gray-600 text-sm"><span data-lang="ua">Високі стандарти навчання та постійне вдосконалення</span><span data-lang="en">High teaching standards and continuous improvement</span></p>
+        </div>
+        <div class="card text-center">
+          <i class="fa-solid fa-handshake text-3xl text-blue-500 mb-3"></i>
+          <h3 class="font-bold font-['Nunito'] text-blue-700 text-lg mb-2"><span data-lang="ua">Спільнота</span><span data-lang="en">Community</span></h3>
+          <p class="text-gray-600 text-sm"><span data-lang="ua">Підтримка української громади на Кіпрі</span><span data-lang="en">Supporting the Ukrainian community in Cyprus</span></p>
+        </div>
+        <div class="card text-center">
+          <i class="fa-solid fa-seedling text-3xl text-green-500 mb-3"></i>
+          <h3 class="font-bold font-['Nunito'] text-blue-700 text-lg mb-2"><span data-lang="ua">Розвиток</span><span data-lang="en">Growth</span></h3>
+          <p class="text-gray-600 text-sm"><span data-lang="ua">Розкриття потенціалу кожної дитини</span><span data-lang="en">Unlocking the potential of every child</span></p>
+        </div>
+        <div class="card text-center">
+          <i class="fa-solid fa-flag text-3xl text-red-500 mb-3"></i>
+          <h3 class="font-bold font-['Nunito'] text-blue-700 text-lg mb-2"><span data-lang="ua">Ідентичність</span><span data-lang="en">Identity</span></h3>
+          <p class="text-gray-600 text-sm"><span data-lang="ua">Збереження української мови, культури та традицій</span><span data-lang="en">Preserving Ukrainian language, culture and traditions</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY PLACEHOLDER -->
+  <section class="py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="section-title"><span data-lang="ua">Наша школа</span><span data-lang="en">Our School</span></h2>
+      <div class="accent-bar"></div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="h-48 bg-blue-100 rounded-xl flex items-center justify-center text-blue-300"><i class="fa-solid fa-image text-4xl"></i></div>
+        <div class="h-48 bg-yellow-50 rounded-xl flex items-center justify-center text-yellow-300"><i class="fa-solid fa-image text-4xl"></i></div>
+        <div class="h-48 bg-blue-50 rounded-xl flex items-center justify-center text-blue-200"><i class="fa-solid fa-image text-4xl"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div><img src="assets/img/logo.png" alt="Школа Крила" class="h-10 mb-3"><p class="text-sm"><span data-lang="ua">Українська початкова школа «Крила» у Лімасолі, Кіпр</span><span data-lang="en">Ukrainian Primary School "Kryla" in Limassol, Cyprus</span></p></div>
+      <div><h4 class="font-bold text-white mb-3 font-['Nunito']"><span data-lang="ua">Навігація</span><span data-lang="en">Navigation</span></h4><ul class="space-y-2 text-sm"><li><a href="about.html" class="hover:text-yellow-400"><span data-lang="ua">Про школу</span><span data-lang="en">About</span></a></li><li><a href="programs.html" class="hover:text-yellow-400"><span data-lang="ua">Програми</span><span data-lang="en">Programs</span></a></li><li><a href="team.html" class="hover:text-yellow-400"><span data-lang="ua">Команда</span><span data-lang="en">Team</span></a></li><li><a href="news.html" class="hover:text-yellow-400"><span data-lang="ua">Новини</span><span data-lang="en">News</span></a></li><li><a href="contact.html" class="hover:text-yellow-400"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></a></li></ul></div>
+      <div><h4 class="font-bold text-white mb-3 font-['Nunito']"><span data-lang="ua">Контакти</span><span data-lang="en">Contact</span></h4><ul class="space-y-2 text-sm"><li><i class="fa-solid fa-location-dot mr-2 text-yellow-400"></i>Germasogeia, Limassol</li>
+          <li><i class="fa-solid fa-phone mr-2 text-yellow-400"></i>+357 99 132180</li><li><i class="fa-solid fa-envelope mr-2 text-yellow-400"></i>wingsuaschool@gmail.com</li></ul></div>
+    </div>
+    <div class="border-t border-gray-800 text-center py-4 text-xs text-gray-500">© 2024 <span data-lang="ua">Школа «Крила»</span><span data-lang="en">School "Kryla"</span></div>
+  </footer>
+
+  <script src="assets/js/lang.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
