@@ -19,3 +19,5 @@ permalink: /about/
 ## Проекты
 
 [🏫 Школа «Крила» — сайт украинской начальной школы в Лимасоле, Кипр](/kryla/)
+
+[🎓 Danube International School Vienna — полный редизайн сайта](/DISV/)
